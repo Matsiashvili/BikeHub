@@ -41,5 +41,5 @@ This project was developed for learning and academic purposes and is not intende
 - Enhance accessibility and performance optimization
 
 ## 👩‍💻 Developer
-**Tika Matsiashvili**  
-LinkedIn: https://www.linkedin.com/in/tikamatsiashvili/
+**Tika M**  
+
