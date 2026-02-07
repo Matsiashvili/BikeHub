@@ -1,33 +1,45 @@
-# BikeHub Android App
+# BikeHub 🏍️
 
-## Overview  
-BikeHub is an Android application designed to help users discover, browse, and purchase motorcycles. The app features categorized bike listings with expandable details, infinite scrolling for on-sale bikes, and intuitive navigation between browsing and buying modes.
+## 📌 Project Overview
+BikeHub is an educational Android application designed to help users discover, browse, and manage motorcycles through categorized listings.  
+The app focuses on advanced RecyclerView usage, dynamic content loading, and intuitive user interaction patterns such as expandable items and swipe actions.
 
-## Features
+This project was developed for learning and academic purposes and is not intended as a commercial product.
 
+## ✨ Features
 - **Nested RecyclerViews**  
-  Categories are displayed in a vertical list, each expandable to reveal a nested list of bikes belonging to that category.
+  Categories are displayed in a vertical list, each expandable to reveal a nested list of bikes.
 
 - **Expandable Items**  
-  Categories and individual bike items can be expanded or collapsed to show or hide additional information such as detailed descriptions and images.
+  Both categories and individual bike items can be expanded or collapsed to show additional details such as descriptions and images.
 
 - **Infinite Scrolling (Pagination)**  
-  The on-sale bikes list supports dynamic loading of data as the user scrolls, enabling smooth infinite scroll behavior.
+  The on-sale bikes list dynamically loads more data as the user scrolls.
 
 - **Item Swiping**  
-  Bikes in the on-sale list can be swiped left or right to perform delete actions.
+  Bikes in the on-sale list support swipe gestures for delete actions.
 
 - **Selection Modes**  
-  Bikes can be selected using checkboxes for single or multiple selections.
+  Bikes can be selected using checkboxes, supporting single and multiple selection.
 
 - **Multiple View Types**  
-  The app manages different view types via RecyclerViews to handle categories and bikes distinctly.
+  RecyclerViews handle different view types for categories and bike items.
 
+## 🛠️ Tech Stack
+- **Language:** Java  
+- **Platform:** Android  
+- **UI Components:** RecyclerView, Nested RecyclerView  
+- **Architecture:** Fragment-based navigation  
+- **Interaction:** Swipe-to-delete, expandable lists, pagination  
+- **Tools:** Android Studio, Git, GitHub  
 
-## Collaborators  
-This project was developed by **Tika Matsiashvili** and **Nodo Lagurashvili**.
+## 🚀 Future Improvements
+- Integrate real-time backend support (e.g., Firebase or REST API)
+- Add search and filtering options
+- Improve UI animations and transitions
+- Implement user accounts and saved favorites
+- Enhance accessibility and performance optimization
 
-
-### Prerequisites  
-- Android Studio Arctic Fox or later  
-- Android device or emulator with API level 21+  
+## 👩‍💻 Developer
+**Tika Matsiashvili**  
+LinkedIn: https://www.linkedin.com/in/tikamatsiashvili/
